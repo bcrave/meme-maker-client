@@ -9,7 +9,7 @@ import MemeForm from "./components/meme-form";
 const routes = {
   "/": () => <App />,
   "/form": () => <MemeForm />,
-  "form/:id": ({ id }) => <MemeForm id={id} editMode={true} />
+  "/form/:id": ({ id }) => <MemeForm id={id} editMode={true} />
 };
 
 function Main() {
